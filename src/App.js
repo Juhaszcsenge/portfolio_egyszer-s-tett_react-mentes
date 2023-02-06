@@ -1,9 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import "boostrap/dist/css/boostrap.min.css";
+import Navbar from "./components/Navbar.1";
+import Header from './components/Header';
 
 function App() {
   return (
-    <h2>Portfolio </h2>
+    <>
+    <Navbar />
+    <Header />
+    </>
   );
 }
 
